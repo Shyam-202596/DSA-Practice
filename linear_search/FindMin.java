@@ -1,5 +1,3 @@
-package dsa.linear_search;
-
 public class FindMin {
     public static void main(String[] args) {
         int[] numbers = {18, 12, 9, 14, 77, 50,-19,20};

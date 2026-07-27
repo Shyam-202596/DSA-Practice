@@ -1,5 +1,3 @@
-package dsa.methods;
-
 import java.sql.SQLOutput;
 
 public class Swap {

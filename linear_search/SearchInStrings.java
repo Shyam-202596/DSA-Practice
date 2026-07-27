@@ -1,5 +1,3 @@
-package dsa.linear_search;
-
 import java.util.Arrays;
 
 public class SearchInStrings {

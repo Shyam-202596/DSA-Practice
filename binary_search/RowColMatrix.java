@@ -1,5 +1,3 @@
-package dsa.binary_search;
-
 import java.util.Arrays;
 
 public class RowColMatrix {

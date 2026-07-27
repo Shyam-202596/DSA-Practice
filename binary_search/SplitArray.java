@@ -1,5 +1,3 @@
-package dsa.binary_search;
-
 // https://leetcode.com/problems/split-array-largest-sum/
 
 public class SplitArray{

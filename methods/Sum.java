@@ -1,5 +1,3 @@
-package dsa.methods;
-
 import java.util.Scanner;
 
 public class Sum {

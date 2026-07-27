@@ -1,5 +1,3 @@
-package dsa.binary_search;
-
 // https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 
 public class RotationBSWithDuplicates{

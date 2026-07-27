@@ -1,5 +1,3 @@
-package dsa.methods;
-
 public class PassingExample {
     public static void main(String[] args) {
         String chacha = "Iron Man";

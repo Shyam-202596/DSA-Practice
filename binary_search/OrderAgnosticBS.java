@@ -1,5 +1,3 @@
-package dsa.binary_search;
-
 public class OrderAgnosticBS {
     public static void main(String[] args) {
         int[] array = {1,2,4,6,8,10,23,25,28,90};

@@ -1,5 +1,3 @@
-package dsa.linear_search;
-
 public class SearchInRange {
     public static void main(String[] args) {
         int[] nums = {11, 23, 45, 65, 12, -3, -88, 0, 44};

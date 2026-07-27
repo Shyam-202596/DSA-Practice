@@ -1,5 +1,3 @@
-package dsa.methods;
-
 public class Greeting {
     public static void main(String[] args) {
         String name = "Shyam";

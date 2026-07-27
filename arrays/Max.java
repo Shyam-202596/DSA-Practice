@@ -1,5 +1,3 @@
-package dsa.arrays;
-
 public class Max {
     public static void main(String[] args) {
         int[] arr = {1, 5, 3, 9, 87, 8};
