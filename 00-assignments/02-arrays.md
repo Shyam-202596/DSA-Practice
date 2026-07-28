@@ -10,4 +10,6 @@
 
 4. https://leetcode.com/problems/richest-customer-wealth/description/
 
-5. 
+5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/
+
+6. 
