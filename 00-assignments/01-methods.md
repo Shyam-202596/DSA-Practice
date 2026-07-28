@@ -1,4 +1,4 @@
-# 02 - Methods Practice Questions
+# 02 - Practice Methods Questions
 
 1. Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
 
