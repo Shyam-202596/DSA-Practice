@@ -2,7 +2,7 @@
 
 ## Easy
 
-1. https://leetcode.com/problems/build-array-from-permutation/description/
+1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation
 
 2. https://leetcode.com/problems/concatenation-of-array/description/
 
@@ -10,6 +10,6 @@
 
 4. https://leetcode.com/problems/richest-customer-wealth/description/
 
-5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/
+5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array
 
 6. 
