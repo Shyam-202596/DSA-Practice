@@ -5,8 +5,8 @@ public class Comparison{
         String b = "Shyam";
         String c = a;
 
-        //System.out.println(a == b);
-        //System.out.println(c == b);
+        System.out.println(a == b);
+        System.out.println(c == b);
 
         String name1 = new String("Shyam");
         String name2 = new String("Shyam");
