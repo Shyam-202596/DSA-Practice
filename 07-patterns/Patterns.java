@@ -1,8 +1,82 @@
 public class Patterns {
     public static void main(String[] args){
 
-        pattern17(5);
+        pattern21(5);
     }
+
+    static void pattern21(int n){
+		int number = 1;
+		for(int row = 0; row < n; row++){
+			for(int col = 0; col < row + 1; col++){
+				System.out.print(number + " ");
+				number++;
+			}
+			System.out.println();
+		}
+	} 
+	
+	static void pattern20(int n){
+		for(int row = 0; row < n; row++){
+			
+			int numberOfCol = row > 0 && row < n - 1 ? 1 : n-1;
+			for(int col = 0; col < numberOfCol; col++){
+				System.out.print("*");
+			}
+			
+			int spaces = row > 0 && row < n - 1 ? n - 3 : 0;
+			for(int blank = 0; blank < spaces; blank++){
+				System.out.print(" ");
+			}
+			
+			int numberOfCo1s = row > 0 && row < n - 1 ? 1 : 0;
+			for(int col = 0; col < numberOfCo1s; col++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	} 
+	
+	static void pattern19(int n){
+		for(int row = 0; row < 2*n; row++){
+			
+			int numberOfCol = row < n ? row + 1 : 2 * n - row - 1;
+			for(int col = 0; col < numberOfCol; col++){
+				System.out.print("*");
+			}
+			
+			int spaces = row < n ? 2 * (n - row - 1) : 2 * (row - n + 1);
+			for(int blank = 0; blank < spaces; blank++){
+				System.out.print(" ");
+			}
+			
+			for(int col = 0; col < numberOfCol; col++){
+				System.out.print("*");
+			}
+			
+			System.out.println();
+		}
+	} 
+	
+	static void pattern18(int n){
+		for(int row = 0; row < 2*n; row++){
+			
+			int numberOfCol = row < n ? n - row : row - n + 1;
+			for(int col = 0; col < numberOfCol; col++){
+				System.out.print("*");
+			}
+			
+			int spaces = row < n ? 2 * row : 2 * (2 * n - row -1);
+			for(int blank = 0; blank < spaces; blank++){
+				System.out.print(" ");
+			}
+			
+			int numberOfCol1 = row < n ? n - row : row - n + 1;
+			for(int col = 0; col < numberOfCol1; col++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	} 
 
     //17 is Imp.
 	static void pattern17(int n){
