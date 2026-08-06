@@ -1,8 +1,141 @@
 public class Patterns {
     public static void main(String[] args){
 
-        pattern21(5);
+        pattern27(4);
     }
+
+    static void pattern27(int n){
+		int start = 1;
+		for(int row = 0; row < n; row++){
+			
+			for(int blank = 0; blank < 2* row; blank++){
+				System.out.print(" ");
+			}
+			
+			for(int col = 0; col < n - row; col++){
+				System.out.print(start + " ");
+				start++;
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	static void pattern26(int n){
+		int start = 1;
+		for(int row = 0; row < n; row++){
+			for(int col = 0; col < n - row; col++){
+				System.out.print(start + " ");
+			}
+			start++;
+			
+			System.out.println();
+		}
+	}
+	
+	static void pattern25(int n){
+		for(int row = 0; row < n; row++){
+			
+			for(int blank = 0; blank < n - 1 - row; blank++){
+				System.out.print(" ");
+			}
+			
+			int numberOfCo1s = row > 0 && row < n-1 ? 1 : n;
+			for(int col = 0; col < numberOfCo1s; col++){
+				System.out.print("*");
+			}
+			
+			int spaces = row > 0 && row < n-1 ? n - 2 : 0;
+			for(int blank = 0; blank < spaces; blank++){
+				System.out.print(" ");
+			}
+			
+			if(row > 0 && row < n-1){
+				System.out.print("*");
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	static void pattern24(int n){
+		for(int row = 0; row < 2*n; row++){
+			System.out.print("*");
+			
+			int spaces1 = row > 0 && row < n ? row - 1 : (row >= n && row < 2*n - 1 ? 2*n - row - 2: 0);
+			for(int blank = 0; blank < spaces1; blank++){
+				System.out.print(" ");
+			}
+			if(row > 0 && row < 2*n-1){
+				System.out.print("*");
+			}
+			
+			int spaces2 = row < n ? 2*(n - row - 1) : 2*(row - n);
+			for(int blank = 0; blank < spaces2; blank++){
+				System.out.print(" ");
+			}
+			System.out.print("*");
+			
+			int spaces3 = row > 0 && row < n ? row - 1 : (row >= n && row < 2*n - 1 ? 2*n - row - 2: 0);
+			for(int blank = 0; blank < spaces3; blank++){
+				System.out.print(" ");
+			}
+			if(row > 0 && row < 2*n-1){
+				System.out.print("*");
+			}
+			
+			System.out.println();
+		} 
+	}
+	
+	//23. need improvement for more than 3, for 3 it is good, but for more than three it is not working fine.  
+	static void pattern23(int n){
+		for(int row = 0; row < n; row++){
+			int spaces1 = n - row;
+			for(int blank = 0; blank < spaces1; blank++){
+				System.out.print(" ");
+			}
+			System.out.print("*");
+			
+			int spaces2 = row > 0 && row < n - 1 ? n - row : n + 1;
+			for(int blank = 0; blank < spaces2; blank++){
+				System.out.print(" ");
+			}
+			System.out.print("*");
+			
+			int spaces3 = row > 0 && row < n - 1 ? n - row - 1: (row != 0 ? n + 1: 0);
+			for(int blank = 0; blank < spaces3; blank++){
+				System.out.print(" ");
+			}
+			if(row > 0){
+				System.out.print("*");
+			} 
+			
+			int spaces4 = row > 0 && row < n - 1 ? n - row : 0;
+			for(int blank = 0; blank < spaces4; blank++){
+				System.out.print(" ");
+			}
+			if(row > 0 && row < n-1){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	} 
+	
+	//22 is Imp.
+	static void pattern22(int n){
+		for(int row = 0; row < n; row++){
+			
+			int start = row % 2 == 0 ? 1 : 0;
+			
+			for(int col = 0; col < row + 1; col++){
+				System.out.print(start + " ");	
+				start = 1 - start;
+			}
+			
+			System.out.println();
+		}
+	} 
 
     static void pattern21(int n){
 		int number = 1;
