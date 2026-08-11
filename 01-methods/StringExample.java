@@ -15,6 +15,7 @@ public class StringExample {
         System.out.println(personalised);
         String str = greet();
         System.out.println(str);
+        sc.close();
 
     }
 

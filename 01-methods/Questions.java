@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class Questions {
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter a number: ");
 //        int n = sc.nextInt();
 //        boolean ans = isPrime(n);
 //        System.out.println(ans);
+          sc.close();
 
         // to print all 3-digits armstrong numbers (also known as narcissistic numbers).
         for(int i=100; i<1000; i++){
