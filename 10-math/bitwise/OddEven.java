@@ -1,7 +1,6 @@
 public class OddEven {
     public static void main (String[] args)
 	{
-		// your code goes here
 		int n = 12;
 		System.out.println(checkOdd(n));
 		System.out.println(checkEven(n));
