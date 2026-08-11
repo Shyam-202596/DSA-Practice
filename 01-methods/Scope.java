@@ -4,6 +4,7 @@ public class Scope {
         int b = 20;
         String name = "Shyam";
         {
+            System.out.println(b);
 //            int a = 20; // it will give an error because we cannot declare a variable with the same name in the same scope.
             a = 20; // reassign the original ref variable to some other value.
             System.out.println(a);
