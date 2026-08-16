@@ -1,7 +1,7 @@
 public class MagicNumber {
     public static void main(String[] args) {
         int n = 6;
-		int ans = findMagicNumber(n);
+		int ans = findMagicNumber2(n);
         System.out.println(ans);
     }
 
@@ -16,4 +16,15 @@ public class MagicNumber {
 	    }
 	    return magicNumber;
 	}
+    static int findMagicNumber2(int n){
+	    int magicNumber = 0;
+	    int base = 5;
+	    while(n > 0){
+	        int last = n & 1;
+	        magicNumber += last * base;
+	        base *= 5;
+	        n = n >> 1;
+	    }
+	    return magicNumber;
+    }
 }
