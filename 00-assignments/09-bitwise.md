@@ -1,4 +1,4 @@
-## Problems
+# Problems
 
 ## Easy
 - [Add Binary](https://leetcode.com/problems/add-binary/)
