@@ -31,7 +31,7 @@ public class SubSet {
 	    int end = 0;
 	    for(int i = 0; i < arr.length; i++){
 	        start = 0;
-               //if dublicate element found then update s = e + 1 
+            //if dublicate element found then update s = e + 1 
 	        if(i > 0 && arr[i] == arr[i - 1]){
 	            start = end + 1;
 	        }
