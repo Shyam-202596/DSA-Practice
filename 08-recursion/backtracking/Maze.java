@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MazeProblem {
+public class Maze {
     public static void main(String[] args) throws java.lang.Exception {
         System.out.println(count(0, 0));
         path("", 0, 0);
